@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="config-client" />
+        <module name="config-server" />
+        <module name="eureka-client" />
+        <module name="eureka-server" />
+        <module name="service-feign" />
+        <module name="service-gateway" />
+        <module name="service-my-gateway" />
+        <module name="service-ribbon" />
+        <module name="service-zuul" />
+        <module name="zookeeper-client" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="config-client" target="1.8" />
+      <module name="config-server" target="1.8" />
+      <module name="eureka server" target="1.8" />
+      <module name="eureka-client" target="1.8" />
+      <module name="eureka-server" target="1.8" />
+      <module name="eurekaserver" target="1.8" />
+      <module name="mycloud" target="1.8" />
+      <module name="service-feign" target="1.8" />
+      <module name="service-gateway" target="1.8" />
+      <module name="service-my-gateway" target="1.8" />
+      <module name="service-ribbon" target="1.8" />
+      <module name="service-zuul" target="1.8" />
+      <module name="zookeeper-client" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
